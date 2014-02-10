@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/ico/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/ico/favicon.ico">
 
     <title>Login | The MarketPlace</title>
 
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-	 <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
 
-	 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link href="/static/css/bootstrap.css" rel="stylesheet">
@@ -33,37 +33,38 @@
 
   <body data-spy="scroll" data-target="#navigation">
 
-	<div id="content">
+  	<div id="wrap">
+		<div id="content">
 
-		<header>
+			<header>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-10 col-xs-9">
+							<h1 id="logo">The MarketPlace</h1>
+							<!-- <h1 id="logo">The MarketPlace</h1> -->
+						</div><!-- end 2 -->
+						<div class="col-sm-2 col-xs-3 visible-sm text-right visible-xs">
+							<a href="/" title="nav" class="mini-nav"><i class="fa fa-reorder"></i></a>
+						</div>
+
+						<div class="col-lg-6 col-lg-offset-3 col-md-7 col-md-offset-2 col-sm-12 col-xs-12">
+							<nav id="navigation">
+									<ul class="nav">
+										<li><a href="/" title="Home">Home</a></li>
+										<li><a href="/" title="About">About</a></li>
+										<li><a href="/" title="Our Team">Our Team</a></li>
+										<li><a href="/" title="Contact">Contact</a></li>
+										<!-- <li><a href="#blog" title="Blog">Blog</a></li> -->
+									</ul>
+							</nav>
+						</div><!-- end 12 -->
+					</div><!-- end row -->
+				</div><!-- end container -->
+			</header>
+
+		
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-10 col-xs-9">
-						<h1 id="logo">The MarketPlace</h1>
-						<!-- <h1 id="logo">The MarketPlace</h1> -->
-					</div><!-- end 2 -->
-					<div class="col-sm-2 col-xs-3 visible-sm text-right visible-xs">
-						<a href="#" title="nav" class="mini-nav"><i class="fa fa-reorder"></i></a>
-					</div>
-
-					<div class="col-lg-6 col-lg-offset-3 col-md-7 col-md-offset-2 col-sm-12 col-xs-12">
-						<nav id="navigation">
-								<ul class="nav">
-									<li><a href="/" title="Home">Home</a></li>
-									<li><a href="/" title="About">About</a></li>
-									<li><a href="/" title="Our Team">Our Team</a></li>
-									<li><a href="/" title="Contact">Contact</a></li>
-									<!-- <li><a href="#blog" title="Blog">Blog</a></li> -->
-								</ul>
-						</nav>
-					</div><!-- end 12 -->
-				</div><!-- end row -->
-			</div><!-- end container -->
-		</header>
-
-		<div id="wrap">
-			<div class="container">
-				<div id="pushdown">
+				<div id="pushdown1">
 			        <form class="form-signin" action="/babaafrik">
 			        	<h2 class="form-signin-heading">Please sign in</h2>
 			        	<input type="text" class="form-control" placeholder="Email address" autofocus>
@@ -76,12 +77,13 @@
 			    </div>
 	    	</div> <!-- /container -->
 	    </div>
+	</div>
 
     	<footer id="sticky">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-						<p>&copy; Copyright Beachstrap 2013. All rights reserved.</p>
+						<p>&copy; Copyright The MarketPlace 2014. All rights reserved.</p>
 					</div>
 					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 						<p class="sn-links"><a href="#" title="twitter"><i class="fa fa-twitter"></i></a><a href="#" title="facebook"><i class="fa fa-facebook"></i></a>
@@ -91,7 +93,7 @@
 			</div>
 		</footer>
 
-	</div><!-- end content -->
+	<!-- end content -->
 
 	<!-- ==================== scripts ============================ -->
 

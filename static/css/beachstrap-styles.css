@@ -352,15 +352,6 @@ footer {
     footer .sn-links a {
       color: #fff; }
 
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by its height */
-  margin: 0 auto 303px;
-  /* Pad bottom by footer height */
-  padding: 0 0 60px;
-}
 /* ==================================== MEDIA QUERIES ==================================== */
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
@@ -442,3 +433,68 @@ footer {
 @media (min-width: 768px) {
   #home .text {
     top: 0; } }
+
+
+/* Jessica's */
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+#profile_pic_1 {
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+}
+
+#pushdown1{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#pushdown2{
+  padding-top: 100px;
+}
+
+#profile_pic_2 {
+  height: 200px;
+  width: 200px;
+  margin: 20 auto;
+  border: 1px solid #cccccc;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+}
+
+.container .row #profile_info {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.container .row #profile_info li {
+  display: inline;
+}
+
+#info {
+  float: right;
+  position: relative;
+}
+
+.clothes {
+  width: 200px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
