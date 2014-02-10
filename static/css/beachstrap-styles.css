@@ -65,8 +65,10 @@ p {
     box-shadow: none; }
 
 .btn-db {
-  background-color: #3d505f;
+  background-color: #f1784d;
   color: #fff;
+  font-size: 24px;
+  font-weight: 700;
   border-radius: 0;
   padding: 10px;
   -webkit-transition: background 0.5s ease;
@@ -75,8 +77,9 @@ p {
   transition: background 0.5s ease;
   width: 100%; }
   .btn-db:hover {
+    text-decoration: none;
     color: #fff;
-    background-color: #658dab; }
+    background: #3d505f; }
 
 .sn-links a {
   color: #3d505f;
@@ -102,7 +105,7 @@ header {
     margin: 0;
     padding: 1px 0;
     text-indent: -9999px;
-    background: url(/images/logo.png) no-repeat 0 0; }
+    background: url(../images/logo.png) no-repeat 0 0; }
 
 nav ul.nav {
   text-align: right;
@@ -249,7 +252,7 @@ nav a {
 #parallax {
   position: relative;
   width: 100%;
-  background: url(../images/newparallax.png) no-repeat 50% 0 fixed;
+  background: url(../images/newparallax_1.png) no-repeat 50% 0 fixed;
   background-size: cover;
   height: 350px; }
   #parallax h2 {
@@ -349,6 +352,15 @@ footer {
     footer .sn-links a {
       color: #fff; }
 
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto 303px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
 /* ==================================== MEDIA QUERIES ==================================== */
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
